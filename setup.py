@@ -56,7 +56,7 @@ setup_args = dict(
     python_requires     = ">=3.5",
     entry_points={
         'jupyterhub.authenticators': [
-            'external_authenticator = NullAuthenticator:NullAuthenticator',
+            'null_authenticator = NullAuthenticator:NullAuthenticator',
         ],
     },
     classifiers         = [
