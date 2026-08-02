@@ -18,13 +18,13 @@ is the thing you edit **every annual rollover**.
 one behavior: reject every login attempt.
 
 **Who consumes me:** pip-installed from this GitHub default branch, **unpinned**, by
-`images/hub/Dockerfile:9` in `darden-data-science/jupyterhub-config`. Set as
+`images/hub/Dockerfile:9` in `darden-data-science/jupyterhub-config-darden`. Set as
 `authenticator_class: NullAuthenticator.NullAuthenticator` at
 `config_files/integration/jupyterhub-landing/values.yaml:35`; the buttons are rendered from
 `config_files/integration/jupyterhub-landing/values.yaml.gotmpl:15-39`.
 
 **Full system map:** `/Users/Michael/Documents/Git Projects/Darden Jupyterhub/docs/SYSTEM-MAP.md`
-(repo `darden-data-science/jupyterhub-config`, private).
+(repo `darden-data-science/jupyterhub-config-darden`, private).
 
 ## Layout
 
