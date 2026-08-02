@@ -43,7 +43,7 @@ which point the redeclaration becomes safe to drop.
 
 ## Compatibility
 
-Python 3.9+, JupyterHub 4.x and 5.x.
+Python 3.10+, JupyterHub 4.x and 5.x.
 
 **No `allow_all` or `allowed_users` configuration is required.** JupyterHub 5 defaults
 `Authenticator.allow_all` to `False`, which denies users who authenticate successfully — but that
