@@ -3,7 +3,7 @@
 # NullAuthenticator
 
 **LIVE — do not delete.** Modernized 2026-08-02 to v1.0.0: PEP 621 packaging, dynamic version,
-GitHub Actions CI (py3.10–3.13), 11 tests, `jupyterhub>=4`, Python 3.9+.
+GitHub Actions CI (py3.10–3.13), 11 tests, `jupyterhub>=4`, Python 3.10+.
 
 Easy to mistake for dead code — it rejects every login, and the module is 18 lines. It is not
 dead: it powers the landing page, which is the front door to every cohort hub.
@@ -49,7 +49,7 @@ pyproject.toml                           PEP 621, authoritative
 setup.py                                 shim, kept for editable installs
 tests/test_null_authenticator.py         11 tests
 examples/jupyterhub_config.example.py    a working landing-page config
-.github/workflows/ci.yml                 py3.9-3.13
+.github/workflows/ci.yml                 py3.10-3.13
 ```
 
 Both `authenticator_class` forms resolve — the entry point `null_authenticator` and the dotted
